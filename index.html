@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Investel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/login_style.css">
+</head>
+<body>
+    <div class="login">
+        <h1>Inicio de sesión</h1>
+        <form action="" method="post" class="login-form">
+            <div class="usr-data">
+                <input type="text" required onblur="userValue(this.value)">
+                <label for="user" class="username lb-style">Correo electronico</label>
+            </div>
+            <div class="usr-data">
+                <input type="password" required onblur="passValue(this.value)">
+                <label for="passwd" class="password lb-style">Contraseña</label>
+            </div>
+            <div class="remaind-passwd">¿Olvidó su contraseña?</div>
+            <input type="submit" value="Iniciar sesion">
+        </form>
+        <div class="logo">
+            <img src="./media/logo_blue.jpeg" alt="logo">
+        </div>
+    </div>
+    <script src="./js/login_script.js"></script>
+</body>
+</html>
