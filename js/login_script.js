@@ -1,6 +1,17 @@
 const usernameLabel = document.querySelector('.username');
 const passLabel = document.querySelector('.password');
 
+
+if (usernameLabel.value != ''){
+    usernameLabel.classList.remove('data-input');
+    usernameLabel.classList.add('lb-style');
+}
+
+if (passLabel.value != ''){
+    passLabel.classList.remove('data-input');
+    passLabel.classList.add('lb-style');
+}
+
 function userValue(value){
     if (value == ''){
         usernameLabel.classList.remove('data-input');
