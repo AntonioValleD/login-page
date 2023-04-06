@@ -55,15 +55,6 @@ body{
     padding: 0 40px;
     box-sizing: border-box;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo img{
-    height: 80px;
-    padding: 20px 0 10px 0;
-}
 .usr-data{
     position: relative;
     border-bottom: 2px solid #adadad;
@@ -127,7 +118,12 @@ body{
     color: var(--purple);
     cursor: pointer;
 }
+.submit-btn{
+    text-align: center;
+}
 input[type="submit"]{
+    margin-top: 10px;
+    margin-bottom: 25px;
     width: 100%;
     height: 50px;
     border: 1px solid;
@@ -136,7 +132,7 @@ input[type="submit"]{
     font-size: 20px;
     color: var(--white);
     cursor: pointer;
-    transition: 0.15s ;
+    transition: 0.15s;
 }
 input[type="submit"]:hover{
     background: var(--white);
